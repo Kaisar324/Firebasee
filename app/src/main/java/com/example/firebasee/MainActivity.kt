@@ -15,6 +15,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
+
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     private var auth:FirebaseAuth? = null
     private val RC_SIGN_IN = 1
